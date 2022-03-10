@@ -28,7 +28,7 @@ Fin du traitement, les fichiers peuvent désormais être utilisés.
 
 Utilisation dans GEO avec un champ calculé :
 
-NB : J'ai ajouté un critère de surface (area>100) pour supprimer les polygones découpés ayant surface trop petite (le plus souvent issus de décallage dans la donnée source)
+NB : J'ai ajouté un critère de surface (area>100) pour supprimer les polygones découpés ayant surface trop petite (le plus souvent issus de décalage dans la donnée source)
 
 ```
 CASE WHEN {typopardom} IN ('agricole','agricole et autre','naturelle','naturelle et autre','eau','eau et autre') AND {typopardom_2} IN('autre','autre et autre','bati','bati et autre')
