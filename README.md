@@ -4,7 +4,7 @@
 
 Lien de l’observatoire : [https://dataservices.geovendee.fr/obs_urba/](https://dataservices.geovendee.fr/obs_urba/)
 
-![](https://geotripad.herokuapp.com/uploads/upload_4283632f6d79a76eea7038789b778b16.PNG)
+![](https://raw.githubusercontent.com/ayoux/etude_intermillesime_ff/main/ff_assets/ff_1.PNG)
 
 
 **Répéter l’opération pour l’export du second millésime.**
@@ -21,7 +21,7 @@ Lien de l’observatoire : [https://dataservices.geovendee.fr/obs_urba/](https:/
 
 Il est possible d'effectuer ce traitement avec le modeleur graphique de qgis : 
 
-![](https://geotripad.herokuapp.com/uploads/upload_58e476c4594797b618720d3bd6d879fd.PNG)
+![](https://raw.githubusercontent.com/ayoux/etude_intermillesime_ff/main/ff_assets/ff_2.PNG)
 
 
 Fin du traitement, les fichiers peuvent désormais être utilisés.
