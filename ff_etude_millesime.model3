@@ -285,6 +285,41 @@
         </Option>
       </Option>
     </Option>
+    <Option type="Map" name="native:multiparttosingleparts_3">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:multiparttosingleparts" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="663" type="double" name="component_pos_x"/>
+        <Option value="552" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="morceaux uniques union" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="670" type="double" name="component_pos_x"/>
+      <Option value="555" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:multiparttosingleparts_3" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:union_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
     <Option type="Map" name="native:union_1">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
@@ -336,7 +371,7 @@
     <Option type="Map" name="qgis:deletecolumn_1">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option value="qgis:deletecolumn" type="QString" name="alg_id"/>
+      <Option value="native:deletecolumn" type="QString" name="alg_id"/>
       <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
         <Option value="" type="QString" name="color"/>
@@ -350,8 +385,8 @@
       </Option>
       <Option value="supprimer_champs_1_2" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="700" type="double" name="component_pos_x"/>
-      <Option value="585" type="double" name="component_pos_y"/>
+      <Option value="670" type="double" name="component_pos_x"/>
+      <Option value="675" type="double" name="component_pos_y"/>
       <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="qgis:deletecolumn_1" type="QString" name="id"/>
@@ -371,8 +406,8 @@
           </Option>
           <Option value="comparaison_intermillesime_ff" type="QString" name="component_description"/>
           <Option value="30" type="double" name="component_height"/>
-          <Option value="760" type="double" name="component_pos_x"/>
-          <Option value="735" type="double" name="component_pos_y"/>
+          <Option value="730" type="double" name="component_pos_x"/>
+          <Option value="825" type="double" name="component_pos_y"/>
           <Option value="200" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
@@ -398,7 +433,7 @@
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option value="native:union_1" type="QString" name="child_id"/>
+            <Option value="native:multiparttosingleparts_3" type="QString" name="child_id"/>
             <Option value="OUTPUT" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
